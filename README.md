@@ -6,7 +6,7 @@
 
 Mnemosyne is an intelligent visual memory system that combines IoT camera devices with AI-powered scene analysis to create a searchable database of visual memories. The system captures images through Raspberry Pi cameras, processes them using advanced AI vision models, and provides natural language querying capabilities.
 
-![Mnemosyne System Overview](docs/assets/system-diagram.png)
+![Mnemosyne System Overview](docs/assets/system-diagram.svg)
 
 ## ✨ Features
 
