@@ -4,9 +4,24 @@
 [![Python](https://img.shields.io/badge/python-3.7+-blue.svg)](https://python.org)
 [![Raspberry Pi](https://img.shields.io/badge/raspberry%20pi-4%2F3B+-red.svg)](https://raspberrypi.org)
 
-Mnemosyne is an intelligent visual memory system that combines IoT camera devices with AI-powered scene analysis to create a searchable database of visual memories. The system captures images through Raspberry Pi cameras, processes them using advanced AI vision models, and provides natural language querying capabilities.
+## Overview
 
-![Mnemosyne System Overview](docs/assets/system-diagram.svg)
+**Ever wish you could ask your home what happened while you were away?** "Was the mail delivered?" "When did the cat knock over that plant?" "Did anyone come to the door this afternoon?"
+
+Mnemosyne transforms visual moments into searchable memories. Named after the Greek goddess of memory, this system combines the simplicity of a Raspberry Pi camera with the intelligence of modern AI vision models to create something remarkable: a device that doesn't just record—it *understands* and *remembers*.
+
+Press a button. The camera captures the scene. AI analyzes what it sees. Ask questions later in plain English. It's that simple.
+
+![Mnemosyne Prototype](images/FullSizeRender.JPG)
+*The Mnemosyne prototype: A Raspberry Pi with camera module, dual LEDs for status indication, and GPIO buttons for triggering different AI vision models.*
+
+### What Makes It Special?
+
+Unlike traditional security cameras that require you to scrub through endless footage, Mnemosyne creates intelligent, searchable snapshots. Each captured image is analyzed by GPT-4 Vision or Google Gemini, generating rich descriptions of what's happening in the scene. Later, you can query your visual memories using natural language—no timestamp hunting required.
+
+**The hardware is refreshingly simple:** A Raspberry Pi, a camera module, a couple of LEDs, and three buttons. **The magic happens in the software:** dual AI vision support, natural language querying, and a clean web interface for managing your visual timeline.
+
+Whether you're monitoring your home, tracking a research experiment, documenting a maker project, or just curious about the comings and goings of daily life, Mnemosyne turns the ephemeral into the searchable.
 
 ## ✨ Features
 
